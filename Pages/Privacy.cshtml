@@ -1,0 +1,9 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = ($"The version of the currently executing assembly is: {GetType().Assembly.GetName().Version}");
+
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
